@@ -1,0 +1,12 @@
+
+
+function lanzarDado() {
+  var dado = Math.floor(Math.random() * 6) + 1;
+  var resultadosInput = document.getElementById('resultados');
+  
+  if (resultadosInput.value === "") {
+    resultadosInput.value = dado;
+  } else {
+    resultadosInput.value += " " + dado;
+  }
+}
