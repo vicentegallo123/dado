@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lanzamiento de Dado</title>
+</head>
+<body>
+  <button onclick="lanzarDado()">Lanzar Dado</button>
+  <p>Resultados: <input id="resultados" readonly /></p>
+  <script src="lanzamiento_dado.js"></script>
+</body>
+</html>
